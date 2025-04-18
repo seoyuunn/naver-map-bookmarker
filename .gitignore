@@ -1,0 +1,62 @@
+# Excel 파일
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+
+# Python 가상환경
+venv/
+naver-map-env/
+env/
+.env
+
+# Conda 환경
+/anaconda*/
+/miniconda*/
+
+# Python 바이트 코드
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 디스트리뷰션/패키징
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 로그 파일
+*.log
+
+# 개인 설정 파일 (개인 크레덴셜 등이 저장될 수 있음)
+config.ini
+secrets.json
+credentials.json
+
+# OS 관련 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 관련 파일
+.idea/
+.vscode/
+*.swp
+*.swo
